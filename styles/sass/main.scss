@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  .card{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 10px rgba(#000000, 0.5)
+   }
+    
+   &:hover .card-header:hover{
+    color: red;
+   }
+
+   .card-header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+
+   .card-body img{
+    width: 100%;
+    height: 100%;
+   }
+
+   .card-footer{
+     display: flex;
+     justify-content: center;
+   }
+
+
+}
